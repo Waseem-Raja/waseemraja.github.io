@@ -4,7 +4,7 @@
   
   img {
     margin: 6px;
-    margin-top: 41%;
+    margin-top: 16%;
   }
   .ABC{
     margin-top: 20%;
@@ -12,5 +12,8 @@
   p{
     font-size: larger;
     font-family:'Times New Roman', Times, serif;
-    color: black;
+    color: rgb(249, 249, 249);
+  }
+  body{
+  background: url("Images/background.png");
   }
