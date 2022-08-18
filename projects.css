@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+  }
+  
+  img {
+    margin: 6px;
+    margin-top: 41%;
+  }
+  .ABC{
+    margin-top: 20%;
+  }
+  p{
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+  }

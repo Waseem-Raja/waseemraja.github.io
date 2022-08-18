@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Email.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("X8IPHuUEO8RRoEvaI");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner">
+            <!-- <img src="Images/images.png" alt=""> -->
+            <div class="panel panel-left">
+                <div class="panel-content">
+                    <div class="image-background">
+                        <!-- <img src="Images/images.png" alt=""> -->
+                    </div>
+                </div>
+                <img src="Images/mmm.png" alt="" id="hel">
+            </div>
+        
+            <div class="panel panel-right">
+                <div class="panel-content">
+                    <div class="form">
+                        <h1>Contact Me</h1>
+                    
+                        <div>
+                            <input type="text" placeholder="Full Name" required id="fullName"/><br />
+                            <input type="email" placeholder="Email Id" required id="email_id"/><br />
+                            <textarea placeholder="Message" required id="message"></textarea><br />
+                            
+                            <button id="btnnn" target="_blank" onclick="SendMail()" >Send</a></button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="menu"></div>
+</body>
+<script src="Email.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</html>
