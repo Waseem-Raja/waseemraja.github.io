@@ -159,6 +159,7 @@ nav.sticky .menu-btn{
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
+  margin-top: 25px;
 }
 .home .button button:hover{
   border-color: #4070f4;
