@@ -522,3 +522,7 @@ footer .text span a:hover{
 #text{
   font-size: 30px;
 }
+.responsive {
+  width: 30%;
+  height: auto;
+}
